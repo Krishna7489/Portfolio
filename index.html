@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Krishna Garg — Software Engineer and Full Stack Developer. MCA student at IIIT Bhopal building reliable web applications." />
+    <title>Krishna Garg — Software Engineer × Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="grid-field" aria-hidden="true"></div>
+    <div class="grain" aria-hidden="true"></div>
+    <div class="orb orb-a" aria-hidden="true"></div>
+    <div class="orb orb-b" aria-hidden="true"></div>
+    <div class="orb orb-c" aria-hidden="true"></div>
+    <div class="orb orb-d" aria-hidden="true"></div>
+    <div class="progress" id="progress"></div>
+
+    <header class="nav" id="nav">
+        <a class="logo" href="#home">KG<span>.</span></a>
+        <nav id="navLinks" aria-label="Primary">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#engineering">Process</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <a class="nav-cta" href="mailto:gargkrishna056@gmail.com">Say hello <span>↗</span></a>
+        <button class="menu" id="menu" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span></button>
+    </header>
+
+    <main id="main">
+        <section class="hero section" id="home">
+            <div class="hero-copy reveal">
+                <div class="eyebrow"><span class="status-dot"></span> open to internships &amp; SDE roles</div>
+                <h1>Hi, I'm <em>Krishna.</em><br>I build software.</h1>
+                <div class="hero-role">Software Engineer <b>×</b> Full Stack Developer</div>
+                <p class="hero-text">MCA student at IIIT Bhopal focused on building reliable web applications, reasoning about problems through data structures and algorithms, and turning ideas into software people can actually use.</p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="#projects">View my work <span>↓</span></a>
+                    <a class="btn ghost" href="https://github.com/Krishna7489" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+                </div>
+                <div class="quick-stats">
+                    <div><strong>SDE-minded</strong><span>problem solving first</span></div>
+                    <div><strong>Full-stack</strong><span>frontend to database</span></div>
+                    <div><strong>∞</strong><span>always learning</span></div>
+                </div>
+            </div>
+
+            <div class="hero-visual reveal delay-1">
+                <svg class="skill-tree" viewBox="0 0 520 400" role="img" aria-labelledby="treeTitle">
+        <title id="treeTitle">A diagram of Krishna's skill areas branching from a central root, like a data structure tree</title>
+        <defs>
+          <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+            <feGaussianBlur stdDeviation="6" result="blur" />
+            <feMerge>
+              <feMergeNode in="blur" />
+              <feMergeNode in="SourceGraphic" />
+            </feMerge>
+          </filter>
+        </defs>
+
+        <path class="edge" d="M98,200 C190,200 250,46 306,46" />
+        <path class="edge" d="M98,200 C190,200 250,148 306,148" />
+        <path class="edge" d="M98,200 C190,200 250,252 306,252" />
+        <path class="edge" d="M98,200 C190,200 250,354 306,354" />
+
+        <circle class="pulse-dot" r="4">
+          <animateMotion dur="3.6s" begin="0s" repeatCount="indefinite" path="M98,200 C190,200 250,46 306,46" />
+        </circle>
+        <circle class="pulse-dot" r="4">
+          <animateMotion dur="3.6s" begin="0.5s" repeatCount="indefinite" path="M98,200 C190,200 250,148 306,148" />
+        </circle>
+        <circle class="pulse-dot" r="4">
+          <animateMotion dur="3.6s" begin="1s" repeatCount="indefinite" path="M98,200 C190,200 250,252 306,252" />
+        </circle>
+        <circle class="pulse-dot" r="4">
+          <animateMotion dur="3.6s" begin="1.5s" repeatCount="indefinite" path="M98,200 C190,200 250,354 306,354" />
+        </circle>
+
+        <g class="branch">
+          <circle cx="330" cy="46" r="24" filter="url(#glow)" />
+          <text x="366" y="42">Languages</text>
+          <text class="sub" x="366" y="58">C++ · Python · JS · SQL</text>
+        </g>
+        <g class="branch">
+          <circle cx="330" cy="148" r="24" filter="url(#glow)" />
+          <text x="366" y="144">DSA &amp; CS</text>
+          <text class="sub" x="366" y="160">structures · algorithms · systems</text>
+        </g>
+        <g class="branch">
+          <circle cx="330" cy="252" r="24" filter="url(#glow)" />
+          <text x="366" y="248">Full Stack</text>
+          <text class="sub" x="366" y="264">React · Node · Express · Mongo</text>
+        </g>
+        <g class="branch">
+          <circle cx="330" cy="354" r="24" filter="url(#glow)" />
+          <text x="366" y="350">Tools</text>
+          <text class="sub" x="366" y="366">Git · GitHub · VS Code</text>
+        </g>
+
+        <g class="root">
+          <circle cx="66" cy="200" r="32" filter="url(#glow)" />
+          <text x="66" y="205">KG</text>
+        </g>
+      </svg>
+            </div>
+        </section>
+
+        <section class="section about" id="about">
+            <div class="section-label reveal"><span class="path">~/about</span></div>
+            <div class="about-grid">
+                <div class="section-heading reveal">
+                    <h2>A developer<br><em>in progress.</em></h2>
+                </div>
+                <div class="about-copy reveal delay-1">
+                    <p class="large">I like taking a blank screen and turning it into something useful, intuitive, and good-looking.</p>
+                    <p>I'm currently sharpening my skills in modern web development, backend fundamentals, and problem solving through data structures and algorithms. I care about writing code that's easy to follow and building interfaces that feel smooth
+                        to use.</p>
+                    <div class="quote">"The goal isn't to know everything. It's to keep getting better."</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills" id="skills">
+            <div class="section-label reveal"><span class="path">~/skills</span></div>
+            <div class="section-title reveal">
+                <h2>How it's <em>stacked.</em></h2>
+                <p>Organized the way a full-stack app actually runs — top to bottom.</p>
+            </div>
+
+            <div class="stack">
+                <div class="layer reveal">
+                    <div class="layer-tag"><span>client</span>layer</div>
+                    <div class="layer-body">
+                        <h3>Frontend</h3>
+                        <div class="chips"><span>HTML</span><span>CSS</span><span>React</span></div>
+                    </div>
+                </div>
+                <div class="layer reveal delay-1">
+                    <div class="layer-tag"><span>server</span>layer</div>
+                    <div class="layer-body">
+                        <h3>Backend</h3>
+                        <div class="chips"><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+                    </div>
+                </div>
+                <div class="layer reveal delay-2">
+                    <div class="layer-tag"><span>core</span>languages</div>
+                    <div class="layer-body">
+                        <h3>Core Languages</h3>
+                        <div class="chips"><span>C</span><span>C++</span><span>Python</span><span>JavaScript</span><span>SQL</span></div>
+                    </div>
+                </div>
+                <div class="layer reveal delay-3">
+                    <div class="layer-tag"><span>core</span>cs</div>
+                    <div class="layer-body">
+                        <h3>Core CS</h3>
+                        <div class="chips"><span>DSA</span><span>OOP</span><span>DBMS</span><span>OS</span><span>CN</span></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="toolbelt reveal delay-3">
+                <span class="toolbelt-label">daily toolbelt</span>
+                <div class="chips"><span>Git</span><span>GitHub</span><span>VS Code</span></div>
+            </div>
+        </section>
+
+        <section class="section engineering" id="engineering">
+            <div class="section-label reveal"><span class="path">~/process</span></div>
+            <div class="section-title reveal">
+                <h2>How I like to <em>build.</em></h2>
+                <p>Every project moves through the same three stages.</p>
+            </div>
+
+            <div class="pipeline">
+                <div class="stage reveal">
+                    <span class="stage-tag">stage 01</span>
+                    <h3>Solve</h3>
+                    <p>Break the problem down into smaller, understandable pieces before writing a line of code.</p>
+                </div>
+                <div class="stage-arrow" aria-hidden="true">→</div>
+                <div class="stage reveal delay-1">
+                    <span class="stage-tag">stage 02</span>
+                    <h3>Build</h3>
+                    <p>Turn the plan into clean, responsive, and usable software.</p>
+                </div>
+                <div class="stage-arrow" aria-hidden="true">→</div>
+                <div class="stage reveal delay-2">
+                    <span class="stage-tag">stage 03</span>
+                    <h3>Improve</h3>
+                    <p>Refactor, optimize, learn from what broke, and keep shipping.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section projects" id="projects">
+            <div class="section-label reveal"><span class="path">~/projects</span></div>
+            <div class="section-title project-head reveal">
+                <div>
+                    <h2>Things I've <em>built.</em></h2>
+                    <p>A small, growing collection.</p>
+                </div>
+                <span class="featured-tag">featured build</span>
+            </div>
+
+            <article class="project-card reveal">
+                <div class="project-preview">
+                    <div class="todo-window">
+                        <div class="todo-head"><span>My Tasks</span><span>☼</span></div>
+                        <div class="todo-input">What needs to be done? <b>+</b></div>
+                        <div class="todo-item done"><span>✓</span>Build a clean UI</div>
+                        <div class="todo-item"><span>○</span>Learn React</div>
+                        <div class="todo-item"><span>○</span>Ship a project</div>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <span class="tag">WEB APP</span>
+                    <h3>To-Do App</h3>
+                    <p>A clean task-management web app with a responsive interface and dark/light theme support.</p>
+                    <div class="tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <div class="project-links">
+                        <a href="https://to-do-app-one-red.vercel.app/" target="_blank" rel="noreferrer">Live demo ↗</a>
+                        <a href="https://github.com/Krishna7489/To-Do-app" target="_blank" rel="noreferrer">Source code ↗</a>
+                    </div>
+                </div>
+            </article>
+            <div class="next-project reveal"><span class="path">// more shipping soon</span><span>✦</span></div>
+        </section>
+
+        <section class="section education" id="education">
+            <div class="section-label reveal"><span class="path">~/education</span></div>
+            <div class="section-title reveal">
+                <h2>Where it's <em>coming from.</em></h2>
+            </div>
+
+            <div class="loglist">
+                <div class="log-entry reveal">
+                    <span class="log-time">2025 → present</span>
+                    <div class="log-body">
+                        <h3>Master of Computer Applications</h3>
+                        <p>Indian Institute of Information Technology, Bhopal</p>
+                    </div>
+                    <span class="log-status active">in progress</span>
+                </div>
+                <div class="log-entry reveal delay-1">
+                    <span class="log-time">2021 - 2024</span>
+                    <div class="log-body">
+                        <h3>Bachelor of Computer Applications</h3>
+                        <p>Jiwaji University</p>
+                    </div>
+                    <span class="log-status" style="background-color: green; color: white;">done</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div class="contact-glow" aria-hidden="true"></div>
+            <div class="section-label reveal"><span class="path">~/contact</span></div>
+            <div class="contact-content reveal">
+                <p class="eyebrow">Have an idea?</p>
+                <h2>Let's make something<br><em>worth showing.</em></h2>
+                <p>I'm open to internships, collaborations, and interesting web development opportunities.</p>
+                <a class="btn primary big" href="mailto:gargkrishna056@gmail.com">Get in touch <span>↗</span></a>
+                <div class="socials">
+                    <a href="https://github.com/Krishna7489" target="_blank" rel="noreferrer">GitHub ↗</a>
+                    <a href="https://www.linkedin.com/in/garg--krishna" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+                    <a href="mailto:gargkrishna056@gmail.com">Email ↗</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <span class="path">Built with curiosity &amp; code</span>
+        <span>© 2026 Krishna Garg</span>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
